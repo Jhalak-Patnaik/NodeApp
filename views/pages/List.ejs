@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+ <head>
+	<title>Meaww Assignment</title>
+ 	<style>
+ 	body{background:#00897B;font-family:verdana;color: #FFFFFF; padding: 30px;}
+ 	h1{font-size: 48px;text-transform:uppercase; letter-spacing: 2px; text-align:center;}
+ 	</style>
+ </head>
+ <body>	
+ 	<h1>List Of Open Issues</h1>
+ 	<ul>
+ 	<% data.forEach(function(item){ %>
+ 		<li><%= item.title %></li>
+ 	 <% }); %>
+ 	</ul>
+ </body>
+</html>
